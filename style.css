@@ -1,0 +1,36 @@
+#container {
+    background-image: url("");
+    background-size: cover;
+    display: block;
+    text-align: center;
+    border: #000 10px;
+    box-sizing: border-box;
+    
+}
+
+
+#h1 {
+
+}
+
+.container {
+    display: block;
+    text-align: center;
+    border: #000 10px;
+    box-sizing: border-box;
+    
+}
+
+.button {
+text-decoration: none;
+text-align: center;
+border: 10px;
+border-radius: 5px;
+border-color: blue;
+background-color: blue;
+color: #fff;
+display: inline-block;
+padding: 20px, 15px;
+
+}
+

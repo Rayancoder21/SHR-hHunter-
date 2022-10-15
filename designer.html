@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Hunter</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="flex items-center justify-center p-12">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="mx-auto w-full max-w-[550px]">
+          <div id="form">
+            <div class="mb-5">
+              <label
+                for="name"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+                Full Name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              />
+            </div>
+            <div class="mb-5">
+              <label
+                for="email"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+                Age
+              </label>
+              <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="00"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              />
+            </div>
+            <div class="mb-5">
+              <label
+                for="subject"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+             
+                  Degree
+                </label>
+                <select name="degree" id="degree" onChange="Degree()">
+                  <option value="0">Fill in the blank</option>
+                  <option value="10">Diploma</option>
+                  <option value="20">Bachlor</option>
+                  <option value="30">Master</option>
+                </select>
+              </div>
+              
+              <div class="mb-5">
+                <label
+                  for="subject"
+                  class="mb-3 block text-base font-medium text-[#07074D]"
+                >
+                Experience
+            </label>
+            <select name="Experience" id="Experience" onChange="Experience()">
+              <option value="0">Fill in the blank</option>
+              <option value="10">Less than 2 years</option>
+              <option value="20">Less than 4 years</option>
+              <option value="30">Less than 6 years</option>
+            </select>
+          </div>
+          <div class="mb-5">
+              <label
+                for="subject"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+                  communication skills                </label>
+                <select name="comunication skills" id="comunication skills" onChange="communicationSkills()">
+                    <option value="0">Fill in the blank</option>
+                  <option value="10">Good</option>
+                  <option value="20">very good</option>
+                  <option value="30">Excellent</option>
+                </select>
+              </div>
+            <div>
+              <button
+                class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+              >
+              </button>
+            </div>
+        </div>
+        </div>
+      </div>
+
+    <!-- <script type="text/javascript">
+        function Experience(){
+            var select = document.getElementById('Experience');
+            var option = select.options[select.selectedIndex];
+
+            document.getElementById('value').value = option.value;
+            document.getElementById('text').value = option.text;
+        }
+
+        Experience();
+    </script>
+
+    
+<script type="text/javascript">
+    function communicationSkills(){
+        var select = document.getElementById('communicationSkills');
+        var option = select.options[select.selectedIndex];
+
+        document.getElementById('value').value = option.value;
+        document.getElementById('text').value = option.text;
+    }
+
+    communicationSkills();
+</script> -->
+</body>
+</html>
